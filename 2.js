@@ -31,8 +31,8 @@ function* fibonacci() {
 }
 
 for (let num of fibonacci()) {
-    if (num % 2 === 0) {
-        sum += num;
+    if (endNumber % 2 === 0) {
+        sum += endNumber;
     }
 }
 
